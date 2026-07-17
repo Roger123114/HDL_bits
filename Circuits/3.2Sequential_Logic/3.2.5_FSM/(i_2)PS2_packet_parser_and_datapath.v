@@ -5,7 +5,7 @@ module top_module(
     output [23:0] out_bytes,
     output done);
 
-    parameter IDLE = 2'd0;
+    parameter IDLE   = 2'd0;
     parameter BYTE1  = 2'd1;
     parameter BYTE2  = 2'd2;
     parameter DONE   = 2'd3;
